@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive CSS & JS Animations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Bringing Web Pages to Life 🌈</h1>
+  </header>
+
+  <main>
+    <section id="part1">
+      <h2>Part 1: CSS3 Transitions & Animations</h2>
+      <button class="animated-btn">Hover Me!</button>
+      <div class="box"></div>
+    </section>
+
+    <section id="part2">
+      <h2>Part 2: JavaScript Functions</h2>
+      <p id="function-output">Click the button to calculate!</p>
+      <button onclick="showSquare()">Calculate Square</button>
+    </section>
+
+    <section id="part3">
+      <h2>Part 3: Combining CSS & JS</h2>
+      <button id="trigger">Animate Box</button>
+      <div class="anim-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Brian Ochieng | PLP Web Technologies</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
